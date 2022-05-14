@@ -109,11 +109,11 @@ We can see that the forms are checking for brackets in username and about me, bu
 
 When checking for a SSTI we do something like this `{{1+1}}` to see how the server handles that request, and when implementing it to the users email it will look something like this
 
-![test of SSTI](Pasted image 20220514210238.png)
+![test of SSTI](https://github.com/KyootyBella/m0lecon22/blob/main/testofssti.png)
 
 When logging in and checking if it works on our profile we find this
 
-![Results](Pasted image 20220514210324.png)
+![Results](https://github.com/KyootyBella/m0lecon22/blob/main/resultsoftest.png)
 
 Okay, so now we know that there is SSTI on this page, but how do we get flag?
 
@@ -158,7 +158,7 @@ Making our exploit look like this
 
 with this we can put it into our email field and exploit the website giving us this output
 
-![result of payload](Pasted image 20220514212413.png)
+![result of payload](https://github.com/KyootyBella/m0lecon22/blob/main/resultsofexploit.png)
 
 ## Flag
 ptm{d1d_u_f1nd_th3_r1ckr0ll?}
